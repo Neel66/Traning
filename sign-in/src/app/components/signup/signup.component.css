@@ -1,0 +1,32 @@
+form{
+    margin-top: 100px;
+    margin-left: 430px;
+}
+input{
+    border-radius: 5px;
+    height: 40px;
+}
+.td1{
+    width: 500px;
+}
+fieldset{
+    width: 60px;
+    background-color:white;
+}
+.button{
+color:black;
+width: 508px;
+background-color: rgb(104, 104, 240);
+}
+.button:hover{
+    border-color: blue;
+    background-color: rgb(77, 190, 235);
+}
+
+.td{
+    width: 243px;
+}
+span{
+    color: blue;
+}
+
