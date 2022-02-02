@@ -1,0 +1,25 @@
+
+form{
+    margin-top: 200px;
+    margin-left: 400px;
+   
+}
+fieldset{
+    width :  100px;
+    background-color: aliceblue;
+}
+.abc{
+width:350px;
+
+}
+.ab{
+    width:360px;
+    background-color: lightblue;
+}
+.cd{
+width: 168px;
+}
+span{
+    color: blue;
+}
+

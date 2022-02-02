@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body style="background-color: brown; background-image: linear-gradient(to right, blue, gray);">
+    <form>
+        <fieldset>
+            <h1 style="text-align: center;">
+                Create Account
+            </h1>
+            <p style="text-align: center;">
+                Allready have an Account ? <span><a href="#">Sign-in</a></span>
+            </p>
+            <input type="text" placeholder="NAME" class="abc">
+            <table>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="First Name" class="cd">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Last Name" class="cd">
+                    </td>
+                </tr>
+            </table>
+            <table><tr>
+                <td>
+                    <input type="email" placeholder="Email-id" class="abc">
+                </td>
+            </tr>
+        <tr>
+            <td>
+                <button type="button" text="Sign-up" class="ab">Sign-up</button>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>
+               
+                <input type="checkbox">
+            </td>
+           <td>
+               I have read and agree to the <span>Terms of Service </span> 
+            
+           </td>
+        </tr>
+    </table>
+    <button type="button" onclick="myFunction()">Sign-in</button>
+    <h1 id="raj" style="display: none;">Raj</h1>  
+        </fieldset>
+    </form>
+    <script>
+        function myFunction(){
+            document.getElementById('raj').style.display = '';
+        }
+    </script>
+</body>
+</html>
