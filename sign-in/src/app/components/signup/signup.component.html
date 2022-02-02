@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="stylesheet" href="./sign-up.component.css">
+  <title>Document</title>
+  
+</head>
+<body >
+
+  <form>
+    <fieldset>
+      <h1 style="text-align: center;">
+        Create Account 
+      </h1>
+      
+      <p style="text-align: center;">Already have an account? <a [routerLink] = "['/signin']"  >Sign in</a></p>
+    <!-- <button id="xyz" onclick="neel()"></button> -->
+      <table>
+        <tr >
+          <td colspan="2">
+            <input type="text" value="kersvers" class="td1">
+          </td>
+          
+        </tr>
+        <tr>
+          <td >
+            <input type="text" placeholder="FirstName" class="td">
+          </td>
+          <td><input type="text" placeholder="LastName" class="td"></td>
+        </tr>
+        <tr >
+          <td colspan="2">
+            <input type="email" placeholder="Email" class="td1"> 
+          </td>
+          
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="password" placeholder="password" class="td1"  pattern="[A-Za-z1-9]{8}" pattern="[1-9]{3}">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="button" value="Sign-up" class="button" routerLink="/hello" routerLinkActive="active">
+          </td>
+        </tr>
+        </table>
+        <table><tr><td>
+          <input type="checkbox" id="neel" name="neel" >
+        </td>
+      <td>
+        <p>I have read and agree to <span>the of service</span></p>
+      </td></tr></table>
+      
+    </fieldset>
+    
+  </form>
+  <!-- <form id="abc" style="display: none;">
+    <fieldset>
+        <input type="email" placeholder="email">
+        <br>
+        <input type="password" placeholder="Your password">
+        <br>
+        <input type="button" value="Sign-In">
+    </fieldset>
+</form>
+<script>
+  "use script";
+  function neel(){
+   document.getElementById('abc').style.display = ' ';
+  }
+</script>  -->
+</body>
+</html>
